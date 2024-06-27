@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #ccd5ae;
+}
+.App {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.main-heading {
+  margin-top: 2rem;
+}
+
+.menu-tab .btn {
+  margin: 0.3rem;
+}
+
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+    
+}
+
+.item1 {
+   
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+   
+}
+
+.item1:hover {
+  transform: translateY(-30px);
+}
+
+.img-div img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  
+ 
+}
+
+.main-title h1 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.price-book-divide h2 {
+  margin: 0;
+}
+
+.price-book-divide .btn {
+  margin: 0;
+}
+
+.price-book-divide p {
+ margin-top: 5px; 
+  color: #555;
+}
+.Trend{
+  font-size: 2rem;
+  margin-top: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 80%;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; 
+  gap: 7px; 
+}
+
+.Try {
+  height: 50px; 
+  width: 50px; 
+  border-radius: 50%;
+  margin-right: auto; 
+}
+.btnnn{
+  border: none;
+  font-size: 20px;
+  background-color: transparent;
+}
+hr {
+  border: none;
+  height: 3px;
+  background-color: #f15d1e;
+  margin: 20px 0;
+  animation: stretch 1s infinite alternate;
+}
+
+@keyframes stretch {
+  from {
+      width: 50%;
+  }
+  to {
+      width: 100%;
+  }
+}
+.btnnn a{
+  text-decoration: transparent;
+
+}

@@ -1,0 +1,23 @@
+.launch-page {
+    text-align: center;
+    padding: 50px;
+}
+
+.launch-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 20px 0;
+}
+
+.btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #218838;
+}
