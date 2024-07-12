@@ -1,23 +1,23 @@
-.launch-page {
-    text-align: center;
-    padding: 50px;
+
+ 
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #2d2013;
 }
 
-.launch-image {
-    width: 100%;
-    max-width: 600px;
-    height: auto;
-    margin: 20px 0;
+
+.gallery img {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.btn {
-    background-color: #28a745;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-}
-
-.btn:hover {
-    background-color: #218838;
+.gallery img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }

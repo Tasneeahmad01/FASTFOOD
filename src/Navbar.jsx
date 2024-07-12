@@ -12,7 +12,7 @@ const Navbar = () => {
             <button className='btnnn'>
             <a href=""> Sign-up</a></button>
       </span>
-            <h1 className="mt-3 text-center main-heading">Order your Favourite Dish</h1>
+            <h1 className="mt-3 text-center main-heading" style={{color:"black", backgroundColor:"transparent"}}>Order your Favourite Dish</h1>
             <hr/>
             </>
   )

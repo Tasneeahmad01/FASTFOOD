@@ -1,0 +1,42 @@
+.text-center {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .evening-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    background-color: #fefae0;
+  }
+  
+  .evening-item {
+    border: 1px solid #ddd;
+    background-color: #c9d7b1;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 240px;
+    color: #000;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .evening-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .evening-item h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .evening-item p {
+    font-size: 1.2em;
+    color: red;
+    margin-bottom: 10px;
+  }
+  
